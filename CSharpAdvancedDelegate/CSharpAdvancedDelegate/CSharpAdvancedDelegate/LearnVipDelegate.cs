@@ -25,7 +25,7 @@ namespace CSharpAdvancedDelegate
             }
         }
         
-        public static void Main(string[] args)
+        /*public static void Main(string[] args)
         {
             List<LearnVipDelegate> delegates = new List<LearnVipDelegate>();
             //Cshapr:第一种添加方式
@@ -58,7 +58,7 @@ namespace CSharpAdvancedDelegate
             IsCsharpVip isCsharpVip = new IsCsharpVip(isCsharpVipBool);
             
             CsharpVip(delegates,isCsharpVip);
-        }
+        }*/
 
         public static bool isCsharpVipBool(LearnVipDelegate learnVipDelegate)
         {
